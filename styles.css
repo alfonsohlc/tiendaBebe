@@ -1,4 +1,3 @@
-/* Reset de márgenes y relleno */
 * {
     margin: 0;
     padding: 0;
@@ -72,4 +71,34 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+#porteo {
+    background-color: #e0e0e0; /* Color de fondo suave para diferenciar la sección */
+}
+
+#porteo h2 {
+    color: #333;
+}
+
+#porteo p {
+    margin-bottom: 20px;
+}
+
+#porteo .product {
+    width: 40%; /* Ajusta el ancho del producto en la sección de porteo */
+    margin: 20px auto; /* Centra el producto */
+}
+
+#porteo button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#porteo button:hover {
+    background-color: #16a085;
 }
